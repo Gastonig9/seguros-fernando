@@ -19,12 +19,12 @@ const Header = () => {
         </p>
 
         <div className="botones-contain">
-          <a href="#">
+          <a href="/contacto">
             <img src={icono_contacto} alt="Contacto Icono" />
             Contactame
           </a>
 
-          <a href="">
+          <a href="/seguros">
             Ver Seguros{" "}
             <i
               className="fa-solid fa-arrow-right"
