@@ -4,8 +4,7 @@
 }
 
 .imagen-contain {
-    width: 35%;
-    
+  width: 35%;
 }
 
 .imagen-contain img {
@@ -14,7 +13,7 @@
 }
 
 .descripcion-contain {
-  background-color: var(--color-fondo); 
+  background-color: var(--color-fondo);
   padding: 100px 50px;
 }
 
@@ -50,31 +49,31 @@
 /* Botones */
 
 .botones-contain {
-    width: 60%;
-    display: flex;
-    justify-content: start;
-    gap: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
 }
 
 .botones-contain a:first-of-type {
-    background-color: var(--color-botones);
-    padding: 10px 45px;
-    color: #fff;
-    text-decoration: none;
+  background-color: var(--color-botones);
+  padding: 10px 45px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .botones-contain a:first-of-type img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .botones-contain a:nth-child(2) {
-    background-color: #fff;
-    padding: 10px 45px;
-    color: var(--color-textos);
-    text-decoration: none;
+  background-color: #fff;
+  padding: 10px 45px;
+  color: var(--color-textos);
+  text-decoration: none;
 }
 
 .botones-contain a:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
 }
