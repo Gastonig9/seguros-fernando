@@ -7,11 +7,13 @@ import Contactame from "./pages/Contactame/Contactame";
 import NotFound from "./components/NotFound/NotFound";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import ButtonW from "./components/ButtonW/ButtonW";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ButtonW />
         <Navbar />
         <Routes>
           <Route path="/" element={<Inicio />}></Route>

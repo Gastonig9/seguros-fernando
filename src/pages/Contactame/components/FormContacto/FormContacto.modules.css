@@ -1,0 +1,28 @@
+.formulario-contain {
+  width: 100%;
+  padding: 120px 120px;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.formulario-contain .formulario-descripcion {
+  width: 30%;
+  padding: 20px;
+}
+
+.formulario-contain .formulario-descripcion h1 {
+  width: 80%;
+  color: #777d8b;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.formulario-contain .formulario-descripcion h1 span {
+  color: #00ade6;
+}
+
+
