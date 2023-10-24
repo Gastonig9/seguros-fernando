@@ -1,16 +1,18 @@
+import "./App.css";
+import Navbar from "./Components/NavBar/Navbar";
+import Seguros from "./Components/Seguros/Seguros";
 
-
-import './App.css'
-import Navbar from './Components/NavBar/Navbar'
-
+import PreguntasFrecuentes from "./Components/PreguntasFrecuentes/PreguntasFrecuentes";
+import Reseñas from "./Reseñas/Reseñas";
 function App() {
-
-
   return (
     <>
-      <Navbar/>
+      <Navbar />
+      <PreguntasFrecuentes />
+      <Seguros />
+      <Reseñas />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
