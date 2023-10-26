@@ -1,6 +1,5 @@
 import { Accordion, AccordionTab } from "primereact/accordion";
 import style from "./PreguntasFrecuentes.module.css";
-import React from "react";
 
 const PreguntasFrecuentes = () => {
   return (

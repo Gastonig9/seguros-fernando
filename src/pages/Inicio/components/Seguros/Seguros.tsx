@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./Seguros.module.css";
 const Seguros = () => {
   return (
