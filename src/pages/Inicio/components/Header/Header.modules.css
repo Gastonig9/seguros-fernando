@@ -5,12 +5,14 @@
 }
 
 .degrades {
-  width: 25%; /* Ancho del degradado (ajusta según tus necesidades) */
+  width: 35%; /* Ancho del degradado (ajusta según tus necesidades) */
   height: 100%;
   background: linear-gradient(to left, #E9ECF0 0%, transparent 40%);
   position: absolute;
   left: 0;
 }
+
+
 
 .imagen-contain {
   width: 35%;
