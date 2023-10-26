@@ -9,6 +9,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import ButtonW from "./components/ButtonW/ButtonW";
 
+import PreguntasFrecuentes from "./Components/PreguntasFrecuentes/PreguntasFrecuentes";
+import Reseñas from "./Reseñas/Reseñas";
 function App() {
   return (
     <>

@@ -1,11 +1,3 @@
-:root {
-  --color-botones: #00ADE6;
-  --color-fondo: #E9ECF0;
-  --color-secondary: #93E2AC;
-  --color-textos: #70757D;
-  --color-titulos: #525252;
-}
-
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -74,4 +66,3 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-} */

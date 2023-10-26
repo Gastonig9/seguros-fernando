@@ -1,0 +1,36 @@
+.divSeguros {
+  display: flex;
+  flex-direction: row;
+}
+
+.textSeguros {
+  background-image: linear-gradient(
+    270deg,
+    #fff 25.46%,
+    rgba(255, 255, 255, 0.83) 48.72%,
+    rgba(255, 255, 255, 0.56) 65.58%,
+    rgba(255, 255, 255, 0.21) 82.51%,
+    rgba(255, 255, 255, 0) 96.08%
+  );
+
+  width: 214px;
+  margin-left: 250px;
+}
+.bgSeguros {
+  background: url("./moto.jpeg"), lightgray 50% / cover no-repeat;
+ 
+  height: 232px;
+  display: flex;
+  flex-direction: row;
+}
+
+.texto {
+  width: 235;
+  height: 50px;
+  color: #44494e;
+  padding-left: 80px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
