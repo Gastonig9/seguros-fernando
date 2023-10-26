@@ -1,10 +1,11 @@
 import imagenBanner from "../../../../assets/images/perfil-banner.png";
 import icono_contacto from "../../../../assets/images/icono-contacto.png";
-import "./Header.modules.css"
+import "./Header.modules.css";
 
 const Header = () => {
   return (
     <header className="header-contain">
+      <div className="degrades"></div>
       <div className="imagen-contain">
         <img src={imagenBanner} alt="Fernando Imagen de Perfil" />
       </div>
