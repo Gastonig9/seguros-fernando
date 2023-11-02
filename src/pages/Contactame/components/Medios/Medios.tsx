@@ -12,12 +12,12 @@ const Medios = () => {
         <div className={style.medios}>
             <div>
                 <img src={email} alt="Email icono" />
-                <h6>xxxxxx@xxxx.com</h6>
+                <h6>oficina@fernandocarrilloasesor.com</h6>
             </div>
 
             <div>
                 <img src={telefono} alt="Telefono Icono" />
-                <h6>+5411111111111</h6>
+                <h6>+2615868074</h6>
             </div>
         </div>
     </div>

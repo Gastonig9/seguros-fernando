@@ -1,0 +1,33 @@
+.card-contain {
+  width: 40%;
+  display: flex;
+  gap: 35px;
+}
+
+.card-image img {
+  width: 300px;
+  height: 200px;
+}
+
+.card-body {
+  padding: 20px 0px;
+}
+
+.card-body h4 {
+  color: #525252;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-body p {
+    width: 50%;
+  color: #767676;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
