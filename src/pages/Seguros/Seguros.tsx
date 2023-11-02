@@ -1,7 +1,13 @@
+import SegurosBanner from "./components/SegurosBanner/SegurosBanner";
+import SegurosList from "./components/SegurosList/SegurosList";
+
 const Seguros = () => {
   return (
-    <div>Seguros</div>
-  )
-}
+    <>
+      <SegurosBanner />
+      <SegurosList />
+    </>
+  );
+};
 
-export default Seguros
+export default Seguros;

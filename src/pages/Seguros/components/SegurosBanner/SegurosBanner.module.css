@@ -1,0 +1,17 @@
+.segurosBanner {
+  width: 100%;
+  background-image: url("../../../../assets/images/segurosBanner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 120px 120px;
+}
+
+.segurosBanner h2 {
+  color: #fff;
+  margin-top: 80px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
