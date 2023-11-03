@@ -4,6 +4,7 @@ export type Aseguradora = {
 
 export interface FormProps {
   nombre: string
+  apellido:string
   correo: string
   mensaje: string
   onSubmit: (event: React.FormEvent) => void

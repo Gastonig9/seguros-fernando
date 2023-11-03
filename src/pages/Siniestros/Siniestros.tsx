@@ -1,6 +1,8 @@
+import FormularioDenuncia from "../../Components/FormularioDenuncia/FormularioDenuncia"
+
 const Siniestros = () => {
   return (
-    <div>Siniestros</div>
+  <FormularioDenuncia/>
   )
 }
 
