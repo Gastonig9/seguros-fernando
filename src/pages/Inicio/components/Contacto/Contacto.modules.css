@@ -1,0 +1,47 @@
+.contactame-contain {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://i.ibb.co/hYNm74K/contacto-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 90px;
+  position: relative;
+}
+
+.degrades-contacto {
+  width: 20%;
+  height: 400px;
+  background: linear-gradient(90deg, #FFF 75.21%, rgba(255, 255, 255, 0.10) 90.49%, rgba(255, 255, 255, 0.00) 99.85%);
+  position: absolute;
+  left: 30%;
+  top: 0;
+}
+
+.contactame-contain h1 {
+  color: #3f3f3f;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.contactame-contain p {
+  color: #454545;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.contactame-contain a {
+    background-color: #00ADE6;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-top: 145px;
+}
