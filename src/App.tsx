@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <PreguntasFrecuentes />
       <Seguros />
       <Reseñas />
+      <PreguntasFrecuentes />
     </>
   );
 }
