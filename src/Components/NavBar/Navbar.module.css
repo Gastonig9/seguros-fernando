@@ -1,0 +1,22 @@
+.navBar {
+  width: 1137px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 137px;
+  margin-right: 137px;
+  justify-content: space-between;
+}
+
+.contenedorCard {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.blue {
+  color: #00ade6;
+}

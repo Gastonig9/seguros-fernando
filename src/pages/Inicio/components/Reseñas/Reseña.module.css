@@ -1,0 +1,43 @@
+.reseñaContainer {
+  width: 990px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 250px;
+}
+.resenaMitad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.reseñaIndividual {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 550px;
+}
+
+.cara {
+  width: 45px;
+  height: 45px;
+  margin: 20px;
+}
+
+.textoTotal {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.texto {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.texto1 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
