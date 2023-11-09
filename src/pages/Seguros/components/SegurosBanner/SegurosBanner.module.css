@@ -1,3 +1,7 @@
+.segurosMobile {
+  display: none;
+}
+
 .segurosBanner {
   width: 100%;
   background-image: url("../../../../assets/images/segurosBanner.png");
@@ -14,4 +18,31 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .segurosBanner {
+    display: none;
+  }
+
+  .segurosMobile {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-image: url("../../../../assets/images/segurosBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .segurosMobile h1 {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 }

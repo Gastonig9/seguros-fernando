@@ -1,3 +1,4 @@
+/* Estilos base para tamaños de pantalla más grandes (por ejemplo, escritorio) */
 .contactame-contain {
   width: 100%;
   height: 400px;
@@ -11,13 +12,18 @@
 .degrades-contacto {
   width: 20%;
   height: 400px;
-  background: linear-gradient(90deg, #FFF 75.21%, rgba(255, 255, 255, 0.10) 90.49%, rgba(255, 255, 255, 0.00) 99.85%);
+  background: linear-gradient(
+    90deg,
+    #FFF 75.21%,
+    rgba(255, 255, 255, 0.10) 90.49%,
+    rgba(255, 255, 255, 0.00) 99.85%
+  );
   position: absolute;
-  left: 30%;
+  left: 35%;
   top: 0;
 }
 
-.contactame-contain h1 {
+.contactame h1 {
   color: #3f3f3f;
   font-family: Roboto;
   font-size: 36px;
@@ -27,7 +33,7 @@
   margin-bottom: 30px;
 }
 
-.contactame-contain p {
+.contactame p {
   color: #454545;
   font-family: Roboto;
   font-size: 20px;
@@ -37,11 +43,49 @@
   margin-bottom: 40px;
 }
 
-.contactame-contain a {
-    background-color: #00ADE6;
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 60px;
-    border-radius: 5px;
-    margin-top: 145px;
+.contactame a {
+  background-color: #00ADE6;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin-top: 145px;
+}
+
+/* Media query para dispositivos móviles (ajusta los valores según tus necesidades) */
+@media screen and (max-width: 768px) {
+  .contactame-contain {
+    background-size: cover;
+    background-position: right; /* Mantén el tamaño de la imagen original */
+    height: auto; /* Ajusta la altura según el contenido */
+    padding: 0px;
+    position: relative;
+  }
+
+  .degrades-contacto {
+    width: 50%;
+    height: 230px;
+    left: 0; /* Oculta el degradado en dispositivos más pequeños */
+  }
+
+  .contactame {
+    padding: 20px;
+  }
+
+  .contactame h1 {
+    position: relative;
+    z-index: 9999;
+  }
+
+  .contactame p {
+    position: relative;
+    z-index: 9999;
+  }
+  
+
+  .contactame a {
+    margin-top: 20px; /* Ajusta el margen superior en dispositivos más pequeños */
+    position: relative;
+    z-index: 9999;
+  }
 }

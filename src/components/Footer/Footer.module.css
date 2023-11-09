@@ -5,3 +5,13 @@ footer {
     gap: 145px;
     padding: 40px 40px;
 }
+
+@media screen and (max-width: 768px) {
+    footer {
+        width: 50%;
+        margin: auto;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+}

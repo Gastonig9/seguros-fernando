@@ -33,7 +33,7 @@ export const cardInfo = [
     {
         img: seguroAutomotor,
         title: "Automotor",
-        description: "Encontra el plan a medida para proteger tu vehiculo nuevo o usado."
+        description: "Encontra el plan a medida para proteger tu vehiculo nuevo o usado.",
     },
     {
         img: seguroFamiliar,
@@ -82,3 +82,4 @@ export const cardInfo = [
     },
 
 ]
+
