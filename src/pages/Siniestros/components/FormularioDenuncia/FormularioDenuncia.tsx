@@ -1,7 +1,7 @@
 import React from "react";
 
 import style from "./FormularioDenuncia.module.css";
-import { FormProps } from "../../assets/types/types";
+import { FormProps } from "../../../../assets/types/types";
 
 const FormularioDenuncia: React.FC<FormProps> = ({
   nombre,

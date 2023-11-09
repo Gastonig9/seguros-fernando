@@ -1,5 +1,7 @@
 import React from "react";
 import style from "./Navbar.module.css";
+import { Link } from "react-router-dom";
+import Inicio from "../../pages/Inicio/Inicio";
 const Navbar = () => {
   return (
     <>
@@ -8,7 +10,6 @@ const Navbar = () => {
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-             
               width="32"
               height="40"
               viewBox="0 0 32 40"
@@ -22,25 +23,27 @@ const Navbar = () => {
                   width="1"
                   height="1"
                 >
-                  <use
-                  
-                    transform="matrix(0.00149701 0 0 0.0011976 0 -0.00718563)"
-                  />
+                  <use transform="matrix(0.00149701 0 0 0.0011976 0 -0.00718563)" />
                 </pattern>
-                <image
-                  id="image0_197_77"
-                  width="668"
-                  height="847"
-                />
+                <image id="image0_197_77" width="668" height="847" />
               </defs>
             </svg>
           </div>
         </div>
         <ul className={style.contenedorCard}>
-          <li className={style.blue} >Inicio</li>
-          <li>Seguros</li>
-          <li>Siniestros</li>
-          <li>Contactame</li>
+          <Link to="/">
+            <li className={style.blue}>Inicio</li>
+          </Link>
+
+          <Link to="/seguros">
+            <li>Seguros</li>
+          </Link>
+          <Link to="/siniestros">
+            <li>Siniestros</li>
+          </Link>
+          <Link to="/contacto">
+            <li>Contactame</li>
+          </Link>
         </ul>
       </div>
     </>

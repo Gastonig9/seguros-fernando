@@ -8,7 +8,7 @@ const SegurosList = () => {
       <div className="seguros-cards">
         {cardInfo.map(card => {
             return(
-                <CardSeguros img={card.img} title={card.title} description={card.description}/>
+                <CardSeguros id={card.id} img={card.img} title={card.title} description={card.description}/>
             )
         })}
       </div>

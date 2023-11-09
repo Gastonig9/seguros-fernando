@@ -1,9 +1,7 @@
-import FormularioDenuncia from "../../Components/FormularioDenuncia/FormularioDenuncia"
+import FormularioDenuncia from "./components/FormularioDenuncia/FormularioDenuncia";
 
 const Siniestros = () => {
-  return (
-  <FormularioDenuncia/>
-  )
-}
+  return <FormularioDenuncia />;
+};
 
-export default Siniestros
+export default Siniestros;

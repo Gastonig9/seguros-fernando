@@ -1,17 +1,18 @@
 export type Aseguradora = {
-    img: string;
-  };
+  img: string;
+};
 
 export interface FormProps {
-  nombre: string
-  apellido:string
-  correo: string
-  mensaje: string
-  onSubmit: (event: React.FormEvent) => void
+  nombre: string;
+  apellido: string;
+  correo: string;
+  mensaje: string;
+  onSubmit: (event: React.FormEvent) => void;
 }
 
 export interface CardProps {
-  img: string
-  title: string
-  description: string
+  id: number;
+  img: string;
+  title: string;
+  description: string;
 }
