@@ -11,7 +11,7 @@ export interface FormProps {
 }
 
 export interface CardProps {
-  id: number;
+  cardId: number;
   img: string;
   title: string;
   description: string;

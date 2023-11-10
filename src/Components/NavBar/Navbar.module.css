@@ -5,6 +5,11 @@
   margin-left: 137px;
   margin-right: 137px;
   justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.imgBrand {
+  margin-top: 10px;
 }
 
 .contenedorCard {
@@ -13,10 +18,27 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
 li {
   list-style-type: none;
-  text-decoration: none;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(102, 119, 124);
+  margin-top: 20px;
 }
-.blue {
-  color: #00ade6;
+
+li:hover {
+  color: #00ADE6;;
+}
+
+a{ 
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

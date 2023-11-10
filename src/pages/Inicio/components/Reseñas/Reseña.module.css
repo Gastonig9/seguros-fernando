@@ -25,19 +25,22 @@
 }
 
 .textoTotal {
-  padding-top: 50px;
-  padding-left: 30px;
+  font-family: Roboto;
+  padding: 40px 100px;
 }
 
 .texto {
+  color: #133e71;
   font-size: 40px;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 500;
   line-height: normal;
 }
+
 .texto1 {
+  color: var(--color-botones);
   font-size: 40px;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 500;
   line-height: normal;
 }

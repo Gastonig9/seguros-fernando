@@ -1,12 +1,12 @@
-import React from "react";
 import style from "./Navbar.module.css";
 import { Link } from "react-router-dom";
-import Inicio from "../../pages/Inicio/Inicio";
+import logo from "../../assets/images/fernando-logo.png"
+
 const Navbar = () => {
   return (
     <>
       <div className={style.navBar}>
-        <div>
+        {/* <div>
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,19 +26,12 @@ const Navbar = () => {
                   <use transform="matrix(0.00149701 0 0 0.0011976 0 -0.00718563)" />
                 </pattern>
                 <image id="image0_197_77" width="668" height="847" />
-                  <use
-                  
-                    transform="matrix(0.00149701 0 0 0.0011976 0 -0.00718563)"
-                  />
-                </pattern>
-                <image
-                  id="image0_197_77"
-                  width="668"
-                  height="847"
-                />
               </defs>
             </svg>
           </div>
+        </div> */}
+        <div className={style.imgBrand}>
+          <img src={logo} alt="fernando logo" />
         </div>
         <ul className={style.contenedorCard}>
           <Link to="/">
@@ -59,13 +52,5 @@ const Navbar = () => {
     </>
   );
 };
-          <li className={style.blue} >Inicio</li>
-          <li>Seguros</li>
-          <li>Siniestros</li>
-          <li>Contactame</li>
-        </ul>
-      </div>
-    </>
-  );
-};
+
 export default Navbar;

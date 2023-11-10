@@ -4,6 +4,7 @@ const Seguros = () => {
   return (
     <>
       <div className={style.texto}>Seguros</div>
+      <div className={style.separador}></div>
 
       <div className={style.divSeguros}>
         <div className={style.bgSeguros}>

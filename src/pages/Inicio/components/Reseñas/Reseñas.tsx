@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Reseña.module.css";
 
 const Reseñas = () => {

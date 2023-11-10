@@ -2,7 +2,7 @@ import { CardProps } from "../../assets/types/types";
 import "./CardSeguros.modules.css";
 import { useParams } from "react-router-dom";
 
-const CardSeguros = ({ id, img, title, description }: CardProps) => {
+const CardSeguros = ({ img, title, description }: CardProps) => {
   const { id } = useParams();
   return (
     <div key={id} className="card-contain">

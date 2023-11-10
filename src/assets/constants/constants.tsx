@@ -14,17 +14,6 @@ import seguroRCivil from "../images/seguro-r-civil.jpg";
 import seguroTrabajo from "../images/seguro-trabajo.jpg";
 import seguroSepelio from "../images/seguro-cepelio.jpg";
 
-import seguroAutomotor from "../images/seguro-automotor.png"
-import seguroFamiliar from "../images/seguro-familiar.png"
-import seguroMotocicletas from "../images/seguro-motocicleta.png"
-import seguroComercio from "../images/seguro-comercio.png"
-import seguroRobo from "../images/seguro-robo.png"
-import seguroVida from "../images/seguro-vida.jpg"
-import seguroCaucion from "../images/seguro-caucion.jpg"
-import seguroRCivil from "../images/seguro-r-civil.jpg"
-import seguroTrabajo from "../images/seguro-trabajo.jpg"
-import seguroSepelio from "../images/seguro-cepelio.jpg"
-
 export const aseguradoras = [
   {
     img: aseguradora1,

@@ -14,26 +14,44 @@
   flex-shrink: 0;
   box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.09);
 }
+
+.separador {
+  width: 12%;
+  height: 3px;
+  background-color: #76ddff;
+}
+
 .total {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
+
+.total div {
+  width: 100%;
+}
+
 .accordionContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
   padding-left: 165px;
 
   padding-top: 50px;
 }
-.texto {
-    width: 235;
-    height: 50px;
-    color: #44494e;
-    padding-left: 80px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
 
+.texto {
+  padding: 20px 35px 0px;
+  width: 20%;
+  color: #44494e;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 7px;
+}
+
+p {
+  width: 50%;
+}
