@@ -1,3 +1,4 @@
+/* Estilos base para tamaños de pantalla más grandes (por ejemplo, escritorio) */
 .mediosContain {
   width: 100%;
   margin: auto;
@@ -38,11 +39,36 @@
 
 .medios div h6 {
   color: #777d8b;
-
   font-family: Roboto;
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-decoration-line: underline;
+}
+
+/* Media query para dispositivos móviles (ajusta los valores según tus necesidades) */
+@media screen and (max-width: 768px) {
+  .mediosContain {
+    padding: 40px 20px; /* Ajusta el relleno para dispositivos móviles */
+  }
+
+  .medios {
+    flex-direction: column; /* Cambiar el diseño de fila a columna en dispositivos móviles */
+    align-items: center; /* Centrar elementos en dispositivos móviles */
+  }
+
+  .medios div {
+    margin: 20px 0; /* Ajusta el margen entre elementos en dispositivos móviles */
+  }
+
+  .medios div img {
+    max-width: 60px; /* Ajusta el tamaño máximo de la imagen para dispositivos móviles */
+    height: auto; /* Ajusta la altura automáticamente para dispositivos móviles */
+  }
+
+  .medios div h6 {
+    font-size: 18px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+    text-decoration-line: none; /* Elimina la subrayado en dispositivos móviles */
+  }
 }

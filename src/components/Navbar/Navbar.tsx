@@ -26,6 +26,16 @@ const Navbar = () => {
                   <use transform="matrix(0.00149701 0 0 0.0011976 0 -0.00718563)" />
                 </pattern>
                 <image id="image0_197_77" width="668" height="847" />
+                  <use
+                  
+                    transform="matrix(0.00149701 0 0 0.0011976 0 -0.00718563)"
+                  />
+                </pattern>
+                <image
+                  id="image0_197_77"
+                  width="668"
+                  height="847"
+                />
               </defs>
             </svg>
           </div>
@@ -49,5 +59,13 @@ const Navbar = () => {
     </>
   );
 };
-
+          <li className={style.blue} >Inicio</li>
+          <li>Seguros</li>
+          <li>Siniestros</li>
+          <li>Contactame</li>
+        </ul>
+      </div>
+    </>
+  );
+};
 export default Navbar;

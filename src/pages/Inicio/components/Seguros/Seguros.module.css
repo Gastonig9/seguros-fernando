@@ -14,16 +14,16 @@
   );
 
   width: 214px;
-  margin-left: 250px;
+  margin-left: 300px;
   height: 100%;
   padding-top: 53px;
 }
 .bgSeguros {
   background: url("./moto.jpeg"), lightgray 50% / cover no-repeat;
-
   height: 232px;
   display: flex;
   flex-direction: row;
+  margin: auto;
 }
 
 .texto {

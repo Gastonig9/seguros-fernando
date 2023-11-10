@@ -9,10 +9,10 @@ const Inicio = () => {
   return (
     <>
       <Header />
-      <Aseguradoras />
       <Seguros />
-      <Contacto />
+      <Aseguradoras />
       <Reseñas />
+      <Contacto />
       <PreguntasFrecuentes />
     </>
   );
