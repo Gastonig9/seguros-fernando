@@ -1,0 +1,53 @@
+.h3b {
+  display: flex;
+  flex-direction: row;
+  color: #00ade6;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.textSiniestros {
+  margin-left: 87px;
+  width: 220px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+}
+.formulario {
+  width: 497px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  border-bottom: 1px black solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 40px;
+}
+textarea {
+  border-bottom: 1px black solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+button {
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  background: #00ade6;
+  color: #ffffff;
+}
+.formularioYWp {
+  margin-left: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  padding-bottom: 50px;
+}
+.formSiniestros {
+  display: flex;
+  flex-direction: row;
+}

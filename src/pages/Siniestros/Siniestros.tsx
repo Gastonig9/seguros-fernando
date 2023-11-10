@@ -1,7 +1,7 @@
-const Siniestros = () => {
-  return (
-    <div>Siniestros</div>
-  )
-}
+import FormularioDenuncia from "./components/FormularioDenuncia/FormularioDenuncia";
 
-export default Siniestros
+const Siniestros = () => {
+  return <FormularioDenuncia />;
+};
+
+export default Siniestros;
