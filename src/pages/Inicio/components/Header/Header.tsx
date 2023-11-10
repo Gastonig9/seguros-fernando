@@ -1,6 +1,6 @@
 import imagenBanner from "../../../../assets/images/fernando-carrillo-perfil.jpg";
 import icono_contacto from "../../../../assets/images/icono-contacto.png";
-import "./Header.modules.css";
+import "./Header.modules.css"
 
 const Header = () => {
   return (
