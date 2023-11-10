@@ -1,4 +1,4 @@
-import imagenBanner from "../../../../assets/images/perfil-banner.png";
+import imagenBanner from "../../../../assets/images/fernando-carrillo-perfil.jpg";
 import icono_contacto from "../../../../assets/images/icono-contacto.png";
 import "./Header.modules.css";
 

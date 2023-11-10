@@ -1,4 +1,4 @@
-/* Estilos base para tamaños de pantalla más grandes (por ejemplo, escritorio) */
+/* Estilos base para tamaños de pantalla más grandes (escritorio) */
 .mediosContain {
   width: 100%;
   margin: auto;
@@ -50,25 +50,25 @@
 /* Media query para dispositivos móviles (ajusta los valores según tus necesidades) */
 @media screen and (max-width: 768px) {
   .mediosContain {
-    padding: 40px 20px; /* Ajusta el relleno para dispositivos móviles */
+    padding: 40px 20px;
   }
 
   .medios {
-    flex-direction: column; /* Cambiar el diseño de fila a columna en dispositivos móviles */
-    align-items: center; /* Centrar elementos en dispositivos móviles */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .medios div {
-    margin: 20px 0; /* Ajusta el margen entre elementos en dispositivos móviles */
+    margin: 20px 0;
   }
 
   .medios div img {
-    max-width: 60px; /* Ajusta el tamaño máximo de la imagen para dispositivos móviles */
-    height: auto; /* Ajusta la altura automáticamente para dispositivos móviles */
+    max-width: 60px;
+    height: auto; 
   }
 
   .medios div h6 {
-    font-size: 18px; /* Ajusta el tamaño de fuente para dispositivos móviles */
-    text-decoration-line: none; /* Elimina la subrayado en dispositivos móviles */
+    font-size: 18px; 
+    text-decoration-line: none;
   }
 }
