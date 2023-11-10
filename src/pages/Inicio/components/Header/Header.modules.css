@@ -86,4 +86,26 @@
 .botones-contain a:hover {
   transform: scale(1.1);
   transition: all 0.3s ease;
+}
 
+/* Media query para tablets y móviles */
+@media screen and (max-width: 768px) {
+  .header-contain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .degrades {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to left, #E9ECF0 0%, transparent 40%);
+  }
+
+  .imagen-contain {
+    display: none; /* Ocultar la imagen en dispositivos más pequeños */
+  }
+
+  .descripcion-contain p {
+    width: 100%;
+  }
+}
