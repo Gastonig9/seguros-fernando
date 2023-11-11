@@ -8,6 +8,10 @@
   padding: 10px 50px;
 }
 
+.menuMobile {
+  display: none;
+}
+
 .imgBrand {
   margin-top: 10px;
 }
@@ -31,14 +35,60 @@ li {
 }
 
 li:hover {
-  color: #00ADE6;;
+  color: #00ade6;
 }
 
-a{ 
+a {
   text-decoration: none;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.menuIcon {
+  display: none; /* Inicialmente oculto en pantallas más grandes */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    display: none;
+  }
+
+  .menuMobile {
+    display: block;
+  }
+
+  .menuAnimation {
+    animation: menuAnimation 0.7s ease;
+  }
+
+  @keyframes menuAnimation {
+    from {
+      height: 0px;
+    }
+    to {
+      height: 160px;
+    }
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    align-items: center;
+  }
+
+  .menu .buttonMenu {
+    padding: 20px;
+  }
+
+  .menu .buttonMenu i {
+    font-size: 30px;
+    margin-top: 50%;
+    cursor: pointer;
+  }
 }

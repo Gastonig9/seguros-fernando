@@ -55,3 +55,30 @@
 p {
   width: 50%;
 }
+
+
+/* Media query para dispositivos móviles (ajusta los valores según tus necesidades) */
+@media screen and (max-width: 768px) {
+  .header a {
+    width: 100%;
+  }
+
+  .separador {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+
+  .accordionContainer {
+    padding-left: 10px;
+    padding-top: 10px;
+    gap: 40px;
+  }
+
+  .texto {
+    width: 100%;
+  }
+
+  p {
+    width: 95%;
+  }
+}

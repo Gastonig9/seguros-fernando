@@ -21,12 +21,18 @@
   );
 
   width: 214px;
+  color: black;
   margin-left: 300px;
   height: 100%;
   padding-top: 53px;
 }
+
+.textSeguros p {
+  width: 100%;
+}
+
 .bgSeguros {
-  background: url("./moto.jpeg"), lightgray 50% / cover no-repeat;
+  /* background: url("./moto.jpeg"), lightgray 50% / cover no-repeat; */
   height: 232px;
   display: flex;
   flex-direction: row;
@@ -44,4 +50,61 @@
   line-height: normal;
   margin-bottom: 7px;
   margin-top: 90px;
+}
+
+.verMas {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.verMas a {
+  width: 15%;
+  background-color: var(--color-botones);
+  color: white;
+  padding: 10px 30px;
+  margin-right: 5%;
+}
+
+.verMas i {
+  margin-left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .divSeguros {
+    flex-direction: column;
+  }
+
+  .verMas a {
+    width: 65%;
+    background-color: var(--color-botones);
+    color: white;
+    padding: 10px 30px;
+    margin-right: 5%;
+  }
+
+  .separador {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+
+  .textSeguros {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 20px;
+  }
+
+  .bgSeguros {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .texto {
+    width: 100%;
+    padding: 20px 10px 0;
+    width: 100%;
+    margin-top: 20px;
+  }
 }

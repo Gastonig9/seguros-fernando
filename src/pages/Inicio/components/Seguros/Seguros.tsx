@@ -1,5 +1,11 @@
-import React from "react";
 import style from "./Seguros.module.css";
+import seguroAutomotor from "../../../../assets/images/seguro-automotor.png";
+import seguroFamiliar from "../../../../assets/images/seguro-familiar.png";
+import seguroMotocicletas from "../../../../assets/images/seguro-motocicleta.png"
+import seguroComercio from "../../../../assets/images/seguro-comercio.png";
+import seguroRobo from "../../../../assets/images/seguro-robo.png";
+import seguroTrabajo from "../../../../assets/images/seguro-trabajo.jpg"
+import { Link } from "react-router-dom";
 const Seguros = () => {
   return (
     <>
@@ -7,64 +13,45 @@ const Seguros = () => {
       <div className={style.separador}></div>
 
       <div className={style.divSeguros}>
-        <div className={style.bgSeguros}>
+        <div className={style.bgSeguros} style={{background: `url(${seguroAutomotor}), lightgray 50%`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition:"center"}}>
           <div className={style.textSeguros}>
-            <h5>Automotor</h5>
-            <p>
-              Encontra el plan a medida para proteger tu vehiculo nuevo o usado.
-            </p>
           </div>
         </div>
 
-        <div className={style.bgSeguros}>
+        <div className={style.bgSeguros} style={{background: `url(${seguroFamiliar}), lightgray 50%`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition:"center"}}>
           <div className={style.textSeguros}>
             <div className={style.color}>
-              <h5>Automotor</h5>
-              <p>
-                Encontra el plan a medida para proteger tu vehiculo nuevo o
-                usado.
-              </p>
             </div>
           </div>
         </div>
 
-        <div className={style.bgSeguros}>
+        <div className={style.bgSeguros} style={{background: `url(${seguroMotocicletas}), lightgray 50%`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition:"center"}}>
           <div className={style.textSeguros}>
-            <h5>Automotor</h5>
-            <p>
-              Encontra el plan a medida para proteger tu vehiculo nuevo o usado.
-            </p>
           </div>
         </div>
       </div>
 
       <div className={style.divSeguros}>
-        <div className={style.bgSeguros}>
+      <div className={style.bgSeguros} style={{background: `url(${seguroComercio}), lightgray 50%`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition:"center"}}>
           <div className={style.textSeguros}>
-            <h5>Automotor</h5>
-            <p>
-              Encontra el plan a medida para proteger tu vehiculo nuevo o usado.
-            </p>
           </div>
         </div>
 
-        <div className={style.bgSeguros}>
+        <div className={style.bgSeguros} style={{background: `url(${seguroRobo}), lightgray 50%`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition:"center"}}>
           <div className={style.textSeguros}>
-            <h5>Automotor</h5>
-            <p>
-              Encontra el plan a medida para proteger tu vehiculo nuevo o usado.
-            </p>
           </div>
         </div>
 
-        <div className={style.bgSeguros}>
+        <div className={style.bgSeguros} style={{background: `url(${seguroTrabajo}), lightgray 50%`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition:"center"}}>
           <div className={style.textSeguros}>
-            <h5>Automotor</h5>
-            <p>
-              Encontra el plan a medida para proteger tu vehiculo nuevo o usado.
-            </p>
           </div>
         </div>
+      </div>
+
+      <div className={style.verMas}>
+        <Link to="/seguros">
+          Ver mas seguros <i className="fa-solid fa-arrow-right" style={{color: "color: #ffffff;"}}></i>
+        </Link>
       </div>
     </>
   );

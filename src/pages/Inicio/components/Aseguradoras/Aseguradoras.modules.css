@@ -48,4 +48,9 @@
   .aseguradoras-contain p {
     width: 100%;
   }
+
+  .aseguradoras-contain .separador {
+    width: 20%;
+    margin-bottom: 20px;
+  }
 }

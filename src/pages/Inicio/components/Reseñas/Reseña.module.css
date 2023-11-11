@@ -44,3 +44,19 @@
   font-weight: 500;
   line-height: normal;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .reseñaContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resenaMitad {
+    margin-top: 20px;
+  }
+
+  .reseñaIndividual {
+    width: 80%;
+  }
+}
