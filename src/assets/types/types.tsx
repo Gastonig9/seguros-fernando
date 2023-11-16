@@ -2,12 +2,15 @@ export type Aseguradora = {
   img: string;
 };
 
+
+
 export interface FormProps {
   nombre: string;
-  apellido: string;
   correo: string;
   mensaje: string;
-  onSubmit: (event: React.FormEvent) => void;
+  enviado: boolean;
+  setEnviado: (enviado: boolean) => void;
+  onChange: (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
 }
 
 export interface CardProps {
