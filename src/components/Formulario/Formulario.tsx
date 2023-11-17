@@ -2,27 +2,37 @@ import React from "react";
 import "./Formulario.modules.css";
 import { FormProps } from "../../assets/types/types";
 import emailjs from "@emailjs/browser";
+import { credentials } from "../../config";
 
-const Formulario: React.FC<FormProps> = ({ nombre, correo, mensaje, onChange, enviado, setEnviado }) => {
-
+const Formulario: React.FC<FormProps> = ({
+  nombre,
+  correo,
+  mensaje,
+  onChange,
+  enviado,
+  setEnviado,
+  error,
+  setError,
+}) => {
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
+    e.preventDefault();
 
     try {
       const form = document.getElementById("form-email") as HTMLFormElement;
 
       await emailjs.sendForm(
-        "service_gid1uzi",
-        "template_isulzzu",
+        credentials.REACT_APP_EMAILJS_SERVICE_ID,
+        credentials.REACT_APP_EMAILJS_TEMPLATE_ID,
         form,
-        "rWreg_YhrnMARKfuN"
+        credentials.REACT_APP_EMAILJS_USER_ID
       );
 
-      setEnviado(true)
+      setEnviado(true);
     } catch (error) {
       console.error("Error al enviar el correo:", error);
+      setError(true);
     }
-  }
+  };
   return (
     <form id="form-email" onSubmit={handleSubmit}>
       <label htmlFor="nombre">Nombre</label>
@@ -32,7 +42,10 @@ const Formulario: React.FC<FormProps> = ({ nombre, correo, mensaje, onChange, en
         placeholder="Juan Perez"
         id="nombre"
         value={nombre}
+        minLength={3}
+        maxLength={10}
         onChange={onChange}
+        required
       />
 
       <label htmlFor="correo">Correo electronico</label>
@@ -43,6 +56,7 @@ const Formulario: React.FC<FormProps> = ({ nombre, correo, mensaje, onChange, en
         id="correo"
         value={correo}
         onChange={onChange}
+        required
       />
 
       <label htmlFor="mensaje">Mensaje</label>
@@ -53,10 +67,18 @@ const Formulario: React.FC<FormProps> = ({ nombre, correo, mensaje, onChange, en
         rows={10}
         placeholder="Escribe tu mensaje"
         value={mensaje}
+        minLength={10}
         onChange={onChange}
+        required
       ></textarea>
 
-      <button type="submit">{enviado ? "Enviado" : "Enviar"}</button>
+      {error ? (
+        <p className="error-message">
+          Hubo un error al enviar el mensaje. <a href="/contacto">Inténtalo de nuevo</a>
+        </p>
+      ) : (
+        <button className={enviado ? "button-send" : "button-submit"} type="submit">{enviado ? "Enviado" : "Enviar"}</button>
+      )}
     </form>
   );
 };

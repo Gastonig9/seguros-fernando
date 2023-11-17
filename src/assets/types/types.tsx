@@ -10,6 +10,8 @@ export interface FormProps {
   mensaje: string;
   enviado: boolean;
   setEnviado: (enviado: boolean) => void;
+  error: boolean
+  setError: (error: boolean) => void
   onChange: (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
 }
 
