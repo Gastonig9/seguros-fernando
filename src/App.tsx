@@ -7,7 +7,7 @@ import Contactame from "./pages/Contactame/Contactame";
 import NotFound from "./components/NotFound/NotFound";
 import Footer from "./components/Footer/Footer";
 import ButtonW from "./components/ButtonW/ButtonW";
-import { Navigation } from "./components/Navigation/Navigation";
+import Navigation from "./Navigation/Navigation"
 
 // RUTAS SEGUROS DETAIL
 import DetailSeguros1 from "./pages/Seguros/components/DetailSeguros/DetailSeguros1";

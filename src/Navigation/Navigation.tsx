@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/images/fernando-logo.png";
 import { useState } from "react";
 
-export const Navigation = () => {
+const Navigation = () => {
   const [menu, setMenu] = useState(false);
 
   const handleMenu = () => {
@@ -47,7 +47,10 @@ export const Navigation = () => {
           </div>
         </div>
 
-        <ul className={menu ? style.menuAnimation : ""} style={menu ? { display: "block"} : { display: "none" }}>
+        <ul
+          className={menu ? style.menuAnimation : ""}
+          style={menu ? { display: "block" } : { display: "none" }}
+        >
           <Link to="/">
             <li className={style.blue}>Inicio</li>
           </Link>
@@ -66,3 +69,5 @@ export const Navigation = () => {
     </>
   );
 };
+
+export default Navigation;
