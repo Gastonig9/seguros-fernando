@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/images/fernando-logo.png";
 import { useState } from "react";
 
-const Navigation = () => {
+export const Navigation = () => {
   const [menu, setMenu] = useState(false);
 
   const handleMenu = () => {
@@ -66,5 +66,3 @@ const Navigation = () => {
     </>
   );
 };
-
-export default Navigation
