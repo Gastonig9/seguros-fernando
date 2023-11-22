@@ -23,7 +23,7 @@ import DetailSeguros11 from "./pages/Seguros/components/DetailSeguros/DetailSegu
 import DetailSeguros12 from "./pages/Seguros/components/DetailSeguros/DetailSeguros12";
 import DetailSeguros13 from "./pages/Seguros/components/DetailSeguros/DetailSeguros13";
 import DetailSeguros14 from "./pages/Seguros/components/DetailSeguros/DetailSeguros14";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar.tsx";
 function App() {
   return (
     <>
