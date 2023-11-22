@@ -23,13 +23,13 @@ import DetailSeguros11 from "./pages/Seguros/components/DetailSeguros/DetailSegu
 import DetailSeguros12 from "./pages/Seguros/components/DetailSeguros/DetailSeguros12";
 import DetailSeguros13 from "./pages/Seguros/components/DetailSeguros/DetailSeguros13";
 import DetailSeguros14 from "./pages/Seguros/components/DetailSeguros/DetailSeguros14";
-import Navbar from "./components/Navbar/Navbar.tsx";
+import Navigation from "./components/Navigation/Navigation";
 function App() {
   return (
     <>
       <BrowserRouter>
         <ButtonW />
-        <Navbar/>
+        <Navigation/>
         <Routes>
           <Route path="/" element={<Inicio />}></Route>
           {/* <Route path="/detail/:id" element={<CardDetail />}></Route> */}
