@@ -1,9 +1,9 @@
-import style from "./Navbar.module.css";
+import style from "./Navigation.module.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/fernando-logo.png";
 import { useState } from "react";
 
-const Navbar = () => {
+const Navigation = () => {
   const [menu, setMenu] = useState(false);
 
   const handleMenu = () => {
@@ -67,4 +67,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navigation
