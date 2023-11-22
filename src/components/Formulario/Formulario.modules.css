@@ -1,0 +1,85 @@
+/* Estilos base para tamaños de pantalla más grandes (por ejemplo, escritorio) */
+.formulario-contain form {
+  width: 100%;
+}
+
+.formulario-contain form label {
+  color: #a7acb7;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.formulario-contain form input,
+.formulario-contain form textarea {
+  display: block;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #B9B9B9;
+  padding: 10px;
+  resize: none;
+}
+
+.formulario-contain form input:focus,
+.formulario-contain form textarea:focus {
+  border-top: none;
+  border-right: none;
+  border-bottom: 3px solid #00ade6;
+  border-left: 3px solid #00ade6;
+  outline: none;
+}
+
+.formulario-contain form .button-submit {
+  width: 20%;
+  background-color: #00ade6;
+  padding: 5px 30px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.formulario-contain form .button-send {
+  background-color: #00e60c;
+  padding: 5px 30px;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.error-message {
+  background-color: #b60f0f;
+  padding: 5px 30px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+/* Media query para dispositivos móviles (ajusta los valores según tus necesidades) */
+@media screen and (max-width: 768px) {
+  .formulario-contain form label {
+    font-size: 16px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+    margin-top: 5px;
+  }
+
+  .formulario-contain form input,
+  .formulario-contain form textarea {
+    font-size: 16px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  }
+
+  .formulario-contain form .button-submit  {
+    width: 60%;
+    margin-top: 10px; /* Ajusta el margen superior para dispositivos móviles */
+  }
+}

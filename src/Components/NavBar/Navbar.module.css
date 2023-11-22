@@ -1,0 +1,94 @@
+.navBar {
+  width: 1137px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 137px;
+  margin-right: 137px;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.menuMobile {
+  display: none;
+}
+
+.imgBrand {
+  margin-top: 10px;
+}
+
+.contenedorCard {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(102, 119, 124);
+  margin-top: 20px;
+}
+
+li:hover {
+  color: #00ade6;
+}
+
+a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menuIcon {
+  display: none; /* Inicialmente oculto en pantallas más grandes */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    display: none;
+  }
+
+  .menuMobile {
+    display: block;
+  }
+
+  .menuAnimation {
+    animation: menuAnimation 0.7s ease;
+  }
+
+  @keyframes menuAnimation {
+    from {
+      height: 0px;
+    }
+    to {
+      height: 160px;
+    }
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    align-items: center;
+  }
+
+  .menu .buttonMenu {
+    padding: 20px;
+  }
+
+  .menu .buttonMenu i {
+    font-size: 30px;
+    margin-top: 50%;
+    cursor: pointer;
+  }
+}

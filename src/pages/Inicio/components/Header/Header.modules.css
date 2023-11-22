@@ -1,0 +1,150 @@
+/* Estilos base para tamaños de pantalla más grandes (por ejemplo, escritorio) */
+.header-contain {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.imagen-contain {
+  width: 35%;
+}
+
+.degrades {
+  width: 35%;
+  height: 100%;
+  background: linear-gradient(to left, #E9ECF0 0%, transparent 50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imagen-contain img {
+  width: 850px;
+  height: 550px;
+}
+
+.descripcion-contain {
+  background-color: var(--color-fondo);
+  padding: 100px 50px;
+}
+
+.descripcion-contain h6 {
+  color: var(--color-textos);
+  font-family: Roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 456;
+  line-height: normal;
+}
+
+.descripcion-contain h4 {
+  color: var(--color-botones);
+  font-family: Roboto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.descripcion-contain p {
+  width: 65%;
+  color: var(--color-textos);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.18px;
+}
+
+/* Botones */
+
+.botones-contain {
+  width: 60%;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.botones-contain a:first-of-type {
+  background-color: var(--color-botones);
+  padding: 10px 45px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.botones-contain a:first-of-type img {
+  margin-right: 10px;
+}
+
+.botones-contain a:nth-child(2) {
+  background-color: #fff;
+  padding: 10px 45px;
+  color: var(--color-textos);
+  text-decoration: none;
+}
+
+.botones-contain a:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+/* Media query para tablets y móviles */
+@media screen and (max-width: 768px) {
+  .header-contain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .degrades {
+    display: none;
+  }
+
+  .imagen-contain {
+    display: none; /* Ocultar la imagen en dispositivos más pequeños */
+  }
+
+  .descripcion-contain {
+    width: 100%;
+  }
+
+  .botones-contain {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .botones-contain a:first-of-type {
+    padding: 15px;
+  }
+
+  .botones-contain a:nth-child(2) {
+    padding: 15px;
+  }
+
+  .botones-contain a:nth-child(2) i {
+    display: none;
+  }
+
+  .botones-contain img {
+    display: none;
+  }
+
+  .descripcion-contain p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .botones-contain {
+    margin-top: 30px;
+  }
+
+  .botones-contain a:first-of-type {
+    font-size: 10px;
+  }
+
+  .botones-contain a:nth-child(2) {
+    font-size: 10px;
+  }
+}

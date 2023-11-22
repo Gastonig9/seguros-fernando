@@ -1,0 +1,56 @@
+.aseguradoras-contain {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.aseguradoras-contain h2 {
+  padding: 20px 35px 0px;
+  width: 20%;
+  color: #44494e;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aseguradoras-contain .separador {
+  width: 12%;
+  height: 3px;
+  background-color: #76ddff;
+}
+
+.aseguradoras-contain p {
+  width: 50%;
+  padding: 20px 35px;
+  color: #838383;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Aseguradoras Imagenes */
+
+.aseguradoras {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .aseguradoras-contain p {
+    width: 100%;
+  }
+
+  .aseguradoras-contain .separador {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+}

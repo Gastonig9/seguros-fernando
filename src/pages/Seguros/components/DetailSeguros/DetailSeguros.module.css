@@ -1,0 +1,537 @@
+.botonesSeguros {
+  width: 100%;
+  background-color: rgb(224, 214, 214);
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 60px;
+  padding: 20px 50px;
+}
+
+.botonesSeguros .seguroEnLinea {
+  background-color: white;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+}
+
+.botonesSeguros .seguroEnLinea:hover {
+  background-color: var(--color-botones);
+  color: black;
+}
+
+.botonesSeguros .seguroEnPagina {
+  background-color: var(--color-botones);
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.botonesSeguros .seguroEnPagina:hover {
+  background-color: white;
+  color: var(--color-botones);
+}
+
+/*------------------------------------- ESTILOS AUTOMOTOR---------------------------- */
+
+.automotorContain {
+  width: 100%;
+}
+.tituloH2Automotor {
+  color: #00ade6;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 65px;
+}
+.textoAutomotor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0px 50px;
+}
+
+.textoAutomotor h3 {
+  color: #00ade6;
+}
+.imageAutomotor {
+  display: flex;
+  flex: 1;
+}
+
+.imageAutomotor img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Puedes ajustar esto según tus necesidades: cover, contain, fill, etc. */
+}
+.textoImageAutomotor {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/*------------------------------------- ESTILOS MOTOS----------------------------- */
+.detailMotosH2 {
+  text-align: center;
+  color: #00ade6;
+}
+.detailMotosTotal {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.detailMotosTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*------------------------------------- ESTILOS  HOGAR----------------------------- */
+
+.h3HogarTitulo {
+  margin-top: 50px;
+  color: #00ade6;
+}
+.h2HogarTituloPrincipal {
+  color: #00ade6;
+  text-align: center;
+}
+.hogarTotal {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.hogarTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.imgHogar {
+  display: flex;
+  flex: 1;
+}
+
+.imgHogar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*------------------------------------- ESTILOS COMERCIO----------------------------- */
+
+.comercioTotal {
+  display: flex;
+  flex-direction: row;
+}
+.comercioText {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comercioImg {
+  display: flex;
+  flex: 2;
+}
+.h3Comercio {
+  color: #00ade6;
+}
+.h2Comercio {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #00ade6;
+}
+/*------------------------------------- ESTILOS RESPONSABILIDAD----------------------------- */
+
+.responsabilidad {
+  margin-top: 50px;
+  color: #00ade6;
+  text-align: center;
+}
+/*------------------------------------- ESTILOS  COBERTURA---------------------------- */
+
+.cobertura {
+  width: 100%;
+  margin-top: 50px;
+  color: #00ade6;
+  text-align: center;
+}
+.coberturaTotal {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+.coberturaText {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+
+  align-items: start;
+}
+.coberturaText h3 {
+  color: #00ade6;
+}
+.sumaAsegurada {
+  border: 1px solid #00ade6;
+  text-align: center;
+}
+.coberturaImg {
+  display: flex;
+  flex: 1;
+}
+
+.coberturaImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Puedes ajustar esto según tus necesidades: cover, contain, fill, etc. */
+}
+/*------------------------------------- ESTILOS SEPELIO----------------------------- */
+
+.sepelioText h2 {
+  color: #00ade6;
+}
+.sepelioTotal {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  padding: 40px;
+}
+.sepelioText {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.sepelioImg {
+  display: flex;
+  flex: 1;
+}
+.sepelioTotal {
+  display: flex;
+  flex-direction: row;
+}
+.sepelioText {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.sepelioImg {
+  display: flex;
+  flex: 1;
+}
+/*------------------------------------- ESTILOS VIDAiNDIVIDUAL----------------------------- */
+
+.vidaIndividualText h2 {
+  margin-top: 50px;
+  text-align: center;
+  color: #00ade6;
+}
+.vidaIndividualText {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.vidaIndividualImg {
+  display: flex;
+  flex: 1;
+}
+/*------------------------------------- ESTILOS CAUCION---------------------------- */
+
+.caucion {
+   padding: 50px;
+}
+
+.caucionContain {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+
+.caucionContain .textoContain p {
+  width: 100%;
+}
+
+.caucion h2 {
+  text-align: center;
+  color: #00ade6;
+  margin-bottom: 50px;
+}
+.caucion h3 {
+  color: #00ade6;
+  margin-top: 30px;
+}
+/*------------------------------------- ESTILOS IDENTIDAD---------------------------- */
+
+.identidad {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.identidad h2 {
+  text-align: center;
+  color: #00ade6;
+  margin-bottom: 40px;
+}
+
+.roboContain {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.roboContain p {
+  width: 50%;
+  color: #767676;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/*------------------------------------- ESTILOS CONSORCIO---------------------------- */
+
+.consorcioTotal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.consorcio h2 {
+  margin-top: 50px;
+  text-align: center;
+  color: #00ade6;
+}
+.consorcio h3 {
+  color: #00ade6;
+  margin-top: 50px;
+}
+.consorcioText {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+.consorcioImg {
+  display: flex;
+  flex: 1;
+}
+/*------------------------------------- ESTILOS SALUD---------------------------- */
+
+.salud {
+  display: flex;
+  flex-direction: column;
+}
+.salud h2 {
+  text-align: center;
+  color: #00ade6;
+}
+/*------------------------------------- ESTILOS SEGURO TECNICO---------------------------- */
+
+.seguroTecnicoTotal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.seguroTecnicoText {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.seguroTecnicoImg {
+  display: flex;
+  flex: 1;
+}
+.seguroTecnico h2 {
+  margin-top: 50px;
+  text-align: center;
+  color: #00ade6;
+}
+/*------------------------------------- ESTILOS VIAJES----------------------------- */
+
+.viajes {
+  display: flex;
+  flex-direction: column;
+}
+.viajes h2 {
+  margin-top: 50px;
+  text-align: center;
+  color: #00ade6;
+}
+
+/*-------------------------------------RESPONSIVE---------------------------------------------------------------------------------- */
+
+@media (min-width: 1px) and (max-width: 600px) {
+  /*---------------------------- RESPONSIVE AUTOMOTOR---------------------------------*/
+  .textoImageAutomotor {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  /*---------------------------- RESPONSIVE MOTOS---------------------------------*/
+  .detailMotosTotal {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  /*---------------------------- RESPONSIVE HOGAR---------------------------------*/
+  .hogarTotal {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  .hogarText {
+    display: flex;
+    flex: 1;
+  }
+  .hogarImg {
+    display: flex;
+    flex: 1;
+  }
+  /*---------------------------- RESPONSIVE COMERCIO---------------------------------*/
+  .comercioTotal {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  .comercioTexto {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .comercioImg {
+    display: flex;
+    flex: 1;
+  }
+  /*---------------------------- RESPONSIVE RESPONSABILIDAD---------------------------------*/
+  .responsabilidadTotal {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  .responsabilidadTexto {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .responsabilidadImg {
+    display: flex;
+    flex: 1;
+  }
+  /*---------------------------- RESPONSIVE COBERTURA---------------------------------*/
+  .coberturaTotal {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  .coberturaText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .coberturaImg {
+    display: flex;
+    flex: 1;
+  }
+  /*---------------------------- RESPONSIVE SEPELIO---------------------------------*/
+  .sepelioTotal {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  .sepelioText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .sepelioImg {
+    display: flex;
+    flex: 1;
+  }
+  /*---------------------------- RESPONSIVE IDENTIDAD---------------------------------*/
+  .vidaIndividual {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  .vidaIndividualText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .vidaIndividualImg {
+    display: flex;
+    flex: 1;
+  }
+  .caucionImg {
+    width: 100%;
+  }
+  /*------------------------------- RESPONSIVE IDENTIDAD-------------------------------------*/
+  .caucionImg img {
+    object-fit: cover;
+  }
+  .identidadImg {
+    width: 100%;
+  }
+  .identidadImg img {
+    object-fit: cover;
+  }
+  /*------------------------------------- RESPONSIVE CONSORCIO----------------------------- */
+  .consorcioTotal {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  .consorcioText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .consorcioImg {
+    display: flex;
+    flex: 1;
+  }
+  /*------------------------------------- RESPONSIVE SALUD----------------------------- */
+
+  .saludImg {
+    width: 100%;
+  }
+  .saludImg img {
+    object-fit: cover;
+  }
+  /*------------------------------------- RESPONSIVE SEGURO TECNICO----------------------------- */
+  .seguroTecnicoTotal {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+  .seguroTecnicoText {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  .seguroTecnicoImg {
+    display: flex;
+    flex: 1;
+  }
+  /*------------------------------------- RESPONSIVE VIAJES----------------------------- */
+
+  .viajes {
+    width: 100%;
+  }
+  .viajes img {
+    object-fit: cover;
+  }
+}

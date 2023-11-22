@@ -1,0 +1,44 @@
+/* Estilos base para tamaños de pantalla más grandes (por ejemplo, escritorio) */
+.formulario-contain {
+  width: 100%;
+  padding: 120px 120px;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.formulario-descripcion {
+  width: 30%;
+  padding: 20px;
+}
+
+.formulario-descripcion h1 {
+  width: 80%;
+  color: #777d8b;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.formulario-descripcion h1 span {
+  color: #00ade6;
+}
+
+/* Media query para dispositivos móviles (ajusta los valores según tus necesidades) */
+@media screen and (max-width: 768px) {
+  .formulario-contain {
+    flex-direction: column; /* Cambiar el diseño de fila a columna en dispositivos móviles */
+    padding: 20px; /* Ajusta el relleno para dispositivos móviles */
+  }
+
+  .formulario-descripcion {
+    width: 100%; /* Ocupar todo el ancho en dispositivos móviles */
+    padding: 10px; /* Ajusta el relleno para dispositivos móviles */
+  }
+
+  .formulario-descripcion h1 {
+    font-size: 24px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  }
+}
