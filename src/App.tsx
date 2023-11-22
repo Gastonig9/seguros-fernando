@@ -7,7 +7,6 @@ import Contactame from "./pages/Contactame/Contactame";
 import NotFound from "./components/NotFound/NotFound";
 import Footer from "./components/Footer/Footer";
 import ButtonW from "./components/ButtonW/ButtonW";
-import Navbar from "./components/Navbar/Navbar"
 
 // RUTAS SEGUROS DETAIL
 import DetailSeguros1 from "./pages/Seguros/components/DetailSeguros/DetailSeguros1";
@@ -24,6 +23,7 @@ import DetailSeguros11 from "./pages/Seguros/components/DetailSeguros/DetailSegu
 import DetailSeguros12 from "./pages/Seguros/components/DetailSeguros/DetailSeguros12";
 import DetailSeguros13 from "./pages/Seguros/components/DetailSeguros/DetailSeguros13";
 import DetailSeguros14 from "./pages/Seguros/components/DetailSeguros/DetailSeguros14";
+import Navbar from "./components/Navbar/Navbar";
 function App() {
   return (
     <>
