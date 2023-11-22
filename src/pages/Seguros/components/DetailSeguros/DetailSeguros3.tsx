@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./DetailSeguros.module.css";
 const DetailSeguros3 = () => {
   const coberturasHogar = [
