@@ -47,7 +47,10 @@ const Navigation = () => {
           </div>
         </div>
 
-        <ul className={menu ? style.menuAnimation : ""} style={menu ? { display: "block"} : { display: "none" }}>
+        <ul
+          className={menu ? style.menuAnimation : ""}
+          style={menu ? { display: "block" } : { display: "none" }}
+        >
           <Link to="/">
             <li className={style.blue}>Inicio</li>
           </Link>
@@ -67,4 +70,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation
+export default Navigation;
