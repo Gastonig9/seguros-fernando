@@ -1,8 +1,8 @@
 import { CardProps } from "../../assets/types/types";
 import "./CardSeguros.modules.css";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
-const CardSeguros = ({ img, title, description }: CardProps) => {
+const CardSeguros = ({ img, title, description, link }: CardProps) => {
   const { id } = useParams();
   return (
     <div key={id} className="card-contain">
@@ -13,8 +13,10 @@ const CardSeguros = ({ img, title, description }: CardProps) => {
       <div className="card-body">
         <h5>{title}</h5>
         <p>{description}</p>
+        <Link to={`/seguros${link}`}>
+          <a>Ir al detalle</a>
+        </Link>
       </div>
-      <button>Ir al detalle</button>
     </div>
   );
 };

@@ -2,6 +2,12 @@ export type Aseguradora = {
   img: string;
 };
 
+export type SeguroInicio = {
+  img: string;
+  title: string
+  text: string
+}
+
 
 
 export interface FormProps {
@@ -16,8 +22,8 @@ export interface FormProps {
 }
 
 export interface CardProps {
-  cardId: number;
   img: string;
   title: string;
   description: string;
+  link?: string
 }

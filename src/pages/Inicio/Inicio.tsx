@@ -10,7 +10,6 @@ const Inicio = () => {
       <Header />
       <Seguros />
       <Aseguradoras />
-      {/* <Reseñas /> */}
       <Contacto />
       <PreguntasFrecuentes />
     </>
