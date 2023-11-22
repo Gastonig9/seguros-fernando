@@ -1,21 +1,41 @@
-.h3b {
-  display: flex;
-  flex-direction: row;
-  color: #00ade6;
-}
-.title {
-  display: flex;
-  flex-direction: column;
+.h2FormularioDenunciaA {
+  color: #777d8b;
+
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
-.textSiniestros {
-  margin-left: 87px;
-  width: 220px;
+.h2FormularioDenunciaB {
+  color: #00ade6;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.parrafoDenuncia {
+  color: #acacac;
+
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.textoSiniestros {
+  margin-left: 57px;
+  width: 420px;
   height: 207px;
   display: flex;
   flex-direction: column;
 }
-.formulario {
+
+form {
   width: 497px;
   display: flex;
   flex-direction: column;
@@ -26,20 +46,66 @@ input {
   border-left: none;
   border-right: none;
   height: 40px;
+  color: #acacac;
+
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
+
+input:focus {
+  border-top: none;
+  border-right: none;
+  border-bottom: 3px solid #00ade6;
+  border-left: 3px solid #00ade6;
+  outline: none;
+}
+
 textarea {
   border-bottom: 1px black solid;
   border-top: none;
   border-left: none;
   border-right: none;
+  resize: none;
 }
-button {
+
+textarea:focus {
+  border-top: none;
+  border-right: none;
+  border-bottom: 3px solid #00ade6;
+  border-left: 3px solid #00ade6;
+  outline: none;
+}
+
+.buttonPending {
   height: 40px;
   width: 140px;
   border-radius: 5px;
   background: #00ade6;
   color: #ffffff;
+  border: none;
 }
+
+.buttonSend {
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  background: #4edd11;
+  color: black;
+   border: none;
+}
+
+.buttonError {
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  background-color: rgb(168, 16, 16);
+  color: white;
+  border: none;
+}
+
 .formularioYWp {
   margin-left: 250px;
   display: flex;
@@ -47,7 +113,63 @@ button {
   align-items: end;
   padding-bottom: 50px;
 }
-.formSiniestros {
+
+.siniestrosTotal {
   display: flex;
   flex-direction: row;
+  gap: 80px;
+  margin-left: 107px;
+  margin-top: 105px;
+  margin-right: 182px;
+  margin-bottom: 253px;
+}
+
+.inputLabel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.wpForm {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.wpForm img {
+  margin-top: 380px;
+}
+
+@media (min-width: 1px) and (max-width: 600px) {
+  .siniestrosTotal {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .textoSiniestros {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .wpForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .wpForm img {
+    margin-top: 20px;
+    margin-left: 60%;
+  }
 }

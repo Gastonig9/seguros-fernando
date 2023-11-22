@@ -46,6 +46,7 @@ const Formulario: React.FC<FormProps> = ({
         maxLength={10}
         onChange={onChange}
         required
+        autoComplete="off"
       />
 
       <label htmlFor="correo">Correo electronico</label>
@@ -57,6 +58,7 @@ const Formulario: React.FC<FormProps> = ({
         value={correo}
         onChange={onChange}
         required
+        autoComplete="off"
       />
 
       <label htmlFor="mensaje">Mensaje</label>
@@ -70,6 +72,7 @@ const Formulario: React.FC<FormProps> = ({
         minLength={10}
         onChange={onChange}
         required
+        autoComplete="off"
       ></textarea>
 
       {error ? (
