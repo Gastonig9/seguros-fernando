@@ -57,8 +57,8 @@
 @media screen and (max-width: 768px) {
   .contactame-contain {
     background-size: cover;
-    background-position: right; /* Mantén el tamaño de la imagen original */
-    height: auto; /* Ajusta la altura según el contenido */
+    background-position: right;
+    height: auto;
     padding: 0px;
     position: relative;
   }
@@ -66,7 +66,7 @@
   .degrades-contacto {
     width: 50%;
     height: 230px;
-    left: 0; /* Oculta el degradado en dispositivos más pequeños */
+    left: 0;
   }
 
   .contactame {
@@ -85,7 +85,7 @@
   
 
   .contactame a {
-    margin-top: 20px; /* Ajusta el margen superior en dispositivos más pequeños */
+    margin-top: 20px;
     position: relative;
     z-index: 9999;
   }
