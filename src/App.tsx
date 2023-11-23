@@ -33,14 +33,11 @@ function App() {
         <Navigation/>
         <Routes>
           <Route path="/" element={<Inicio />}></Route>
-          {/* <Route path="/detail/:id" element={<CardDetail />}></Route> */}
 
           <Route path="/seguros" element={<Seguros />} />
           <Route path="/siniestros" element={<Siniestros />} />
           <Route path="/contacto" element={<Contactame />} />
           <Route path="*" element={<NotFound />} />
-
-          {/* RUTAS SEGUROS DETAIL */}
 
           <Route path="/seguros/automotor" element={<DetailSeguros1/>}/> x
           <Route path="/seguros/motos" element={<DetailSeguros2/>}/>x
