@@ -29,16 +29,16 @@
 /* Media query para dispositivos móviles (ajusta los valores según tus necesidades) */
 @media screen and (max-width: 768px) {
   .formulario-contain {
-    flex-direction: column; /* Cambiar el diseño de fila a columna en dispositivos móviles */
-    padding: 20px; /* Ajusta el relleno para dispositivos móviles */
+    flex-direction: column;
+    padding: 20px;
   }
 
   .formulario-descripcion {
-    width: 100%; /* Ocupar todo el ancho en dispositivos móviles */
-    padding: 10px; /* Ajusta el relleno para dispositivos móviles */
+    width: 100%; 
+    padding: 10px;
   }
 
   .formulario-descripcion h1 {
-    font-size: 24px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+    font-size: 24px;
   }
 }

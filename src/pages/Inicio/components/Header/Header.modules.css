@@ -101,7 +101,7 @@
   }
 
   .imagen-contain {
-    display: none; /* Ocultar la imagen en dispositivos más pequeños */
+    display: none;
   }
 
   .descripcion-contain {
