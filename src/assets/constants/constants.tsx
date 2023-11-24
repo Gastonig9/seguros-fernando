@@ -152,31 +152,37 @@ export const cardSeguroInicio = [
   {
     img: seguroAutomotorInicio,
     title: "Automotor",
-    text: "Encontra el plan a medida para proteger tu vehiculo nuevo o usado."
+    text: "Encontra el plan a medida para proteger tu vehiculo nuevo o usado.",
+    path: "/automotor"
   },
   {
     img: seguroFamiliarInicio,
     title: "Combinado Familiar",
-    text: "Descubri las diferentes opciones de cobertura con las que podes contar en tu hogar"
+    text: "Descubri las diferentes opciones de cobertura con las que podes contar en tu hogar",
+    path: "/combinado-familiar"
   },
   {
     img: seguroMotocicletasInicio,
     title: "Motocicletas",
-    text: "Encontra el plan a medida para proteger tu vehiculo nuevo o usado"
+    text: "Encontra el plan a medida para proteger tu vehiculo nuevo o usado",
+    path: "/motos"
   },
   {
     img: seguroVidaInicio,
     title: "Vida",
-    text: "Asegura el porvenir de tus afecto"
+    text: "Asegura el porvenir de tus afecto",
+    path: "/vida"
   },
   {
     img: seguroComercioInicio,
     title: "Integral de comercio",
-    text: "Resguarda tu patrimonio"
+    text: "Resguarda tu patrimonio",
+    path: "/integral-comercio"
   },
   {
     img: seguroRoboInicio,
     title: "Robo de identidad",
-    text: "Resguardate contra los hackeos y el fishing"
+    text: "Resguardate contra los hackeos y el fishing",
+    path: "/robo-identidad"
   },
 ]

@@ -6,6 +6,7 @@ export type SeguroInicio = {
   img: string;
   title: string
   text: string
+  path?: string
 }
 
 

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import imagenBanner from "../../../../assets/images/fernando-carrillo-perfil.jpg";
 import icono_contacto from "../../../../assets/images/icono-contacto.png";
 import "./Header.modules.css";
@@ -20,18 +21,18 @@ const Header = () => {
         </p>
 
         <div className="botones-contain">
-          <a href="/contacto">
+          <Link to="/contacto">
             <img src={icono_contacto} alt="Contacto Icono" />
             Contactame
-          </a>
+          </Link>
 
-          <a href="/seguros">
+          <Link to="/seguros">
             Ver Seguros{" "}
             <i
               className="fa-solid fa-arrow-right"
               style={{ color: "#545454" }}
             ></i>
-          </a>
+          </Link>
         </div>
       </div>
     </header>
