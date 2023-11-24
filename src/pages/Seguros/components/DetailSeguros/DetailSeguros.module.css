@@ -154,6 +154,29 @@
   color: #00ade6;
   text-align: center;
 }
+
+.responsabilidadTotal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.responsabilidadTexto {
+  width: 35%;
+  text-align: start;
+}
+
+.responsabilidadImg {
+  display: flex;
+  flex: 1;
+}
+
+.responsabilidadImg img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover; /* Puedes ajustar esto según tus necesidades: cover, contain, fill, etc. */
+}
 /*------------------------------------- ESTILOS  COBERTURA---------------------------- */
 
 .cobertura {
@@ -225,25 +248,48 @@
   flex: 1;
 }
 /*------------------------------------- ESTILOS VIDAiNDIVIDUAL----------------------------- */
-
-.vidaIndividualText h2 {
-  margin-top: 50px;
-  text-align: center;
+.vidaTitulo {
   color: #00ade6;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 65px;
 }
-.vidaIndividualText {
+
+.vidaIndividual {
+  width: 100%;
   display: flex;
-  flex: 1;
-  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
-.vidaIndividualImg {
-  display: flex;
-  flex: 1;
+
+.vidaIndividual .vidaIndividualText {
+  padding: 20px 40px;
+  width: 45%;
+}
+
+.vidaIndividual .vidaIndividualText h2 {
+  text-align: start;
+  color: #00ade6;
+  margin-bottom: 20px;
+}
+
+.vidaIndividual .vidaIndividualText p {
+  font-size: 25px;
+  color: #6c6c6c;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.vidaIndividual .sepelioImg {
+  padding: 20px 40px;
 }
 /*------------------------------------- ESTILOS CAUCION---------------------------- */
 
 .caucion {
-   padding: 50px;
+  padding: 50px;
 }
 
 .caucionContain {
@@ -299,6 +345,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 20px 60px;
 }
 .consorcio h2 {
   margin-top: 50px;
@@ -313,6 +360,13 @@
   display: flex;
   flex: 2;
   flex-direction: column;
+  color: #6c6c6c;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .consorcioImg {
   display: flex;
@@ -320,10 +374,29 @@
 }
 /*------------------------------------- ESTILOS SALUD---------------------------- */
 
-.salud {
+.saludContain {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 60px;
 }
+
+.saludContain p {
+  width: 100%;
+  color: #6c6c6c;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.saludContain .saludText h2 {
+  text-align: start;
+  color: #00ade6;
+  margin-bottom: 10px;
+}
+
 .salud h2 {
   text-align: center;
   color: #00ade6;
@@ -334,15 +407,36 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 20px 60px;
 }
 .seguroTecnicoText {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
+
+.seguroTecnicoText {
+  color: #6c6c6c;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.seguroTecnicoText h3 {
+  color: #00ade6;
+}
+
 .seguroTecnicoImg {
   display: flex;
   flex: 1;
+}
+
+.seguroTecnicoImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .seguroTecnico h2 {
   margin-top: 50px;
@@ -361,6 +455,21 @@
   color: #00ade6;
 }
 
+.textViajesContain {
+  padding: 20px 60px;
+  color: #6c6c6c;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.textViajesContain h2 {
+  color: #00ade6;
+  font-weight: 500;
+  border-bottom: 10px;
+}
 /*-------------------------------------RESPONSIVE---------------------------------------------------------------------------------- */
 
 @media (min-width: 1px) and (max-width: 600px) {

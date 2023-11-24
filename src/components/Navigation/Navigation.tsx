@@ -1,6 +1,6 @@
 import style from "./Navigation.module.css";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/fernando-logo.png";
+import logo from "../../assets/images/logo-fernando2.png"
 import { useState } from "react";
 
 const Navigation = () => {

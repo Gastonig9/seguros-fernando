@@ -11,14 +11,18 @@ const Seguros = () => {
       <div className={style.segurosInicioContain}>
         {cardSeguroInicio.map((seguro: SeguroInicio, index: number) => (
           <>
+
             <div key={index} className={style.seguroCard}>
+            <Link to={`/seguros${seguro.path}`}>
               <img src={seguro.img} alt="Seguro Img" />
               <div className={style.degrades}></div>
               <div className={style.descripcionSeguroInicio}>
                 <h6>{seguro.title}</h6>
                 <p>{seguro.text}</p>
               </div>
+              </Link>
             </div>
+
           </>
         ))}
       </div>
