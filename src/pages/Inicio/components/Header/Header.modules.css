@@ -127,11 +127,11 @@
   }
 
   .botones-contain a:nth-child(2) i {
-    /* display: none; */
+    display: none;
   }
 
   .botones-contain img {
-    /* display: none; */
+    display: none;
   }
 
   .descripcion-contain p {
