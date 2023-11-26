@@ -7,3 +7,10 @@
     gap: 20px;
     padding: 20px 110px;
 }
+
+@media screen and (max-width: 768px) {
+    .seguros-cards {
+        padding: 0px;
+        margin-top: 60px;
+    }
+}

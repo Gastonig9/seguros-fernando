@@ -140,17 +140,37 @@
 }
 
 @media screen and (max-width: 485px) {
+
+  .descripcion-contain {
+    padding: 30px;
+  }
+
+  .descripcion-contain h4 {
+    font-size: 32px;
+  }
+
+  .descripcion-contain h6 {
+    width: 100%;
+    font-size: 19px;
+  }
+
+  .descripcion-contain p {
+    font-size: 14px;
+  }
+
   .botones-contain {
+    justify-content: space-around;
     margin-top: 30px;
   }
 
   .botones-contain a:first-of-type {
-    width: 60%;
-    font-size: 11px;
+    width: 55%;
+    font-size: 13px;
   }
 
   .botones-contain a:nth-child(2) {
-    width: 60%;
-    font-size: 11px;
+    width: 55%;
+    padding: 10px;
+    font-size: 13px;
   }
 }

@@ -48,8 +48,7 @@ const Navigation = () => {
         </div>
 
         <ul
-          className={menu ? style.menuAnimation : ""}
-          style={menu ? { display: "block" } : { display: "none" }}
+          className={menu ? style.menuAnimation : style.menuAnimationClose}
         >
           <Link to="/">
             <li className={style.blue}>Inicio</li>
@@ -64,6 +63,11 @@ const Navigation = () => {
           <Link to="/contacto">
             <li>Contactame</li>
           </Link>
+          <a href="https://wa.me/2615868074?text=¡Hola%20Fernando!%20Vengo de tu sitio web. ¿Puedo hacerte una consulta?" target="_blank">
+            <div className={style.buttonWMobile}>
+              <li className={style.whatsappConsulta}>Enviar consulta por Whatsapp</li>
+            </div>
+          </a>
         </ul>
       </div>
     </>
