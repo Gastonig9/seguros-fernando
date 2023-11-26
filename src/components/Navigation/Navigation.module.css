@@ -1,100 +1,140 @@
 .navBar {
-    width: 1137px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 137px;
-    margin-right: 137px;
-    justify-content: space-between;
-    padding: 10px 50px;
-  }
-  
-  .menuMobile {
+  width: 1137px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 137px;
+  margin-right: 137px;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.menuMobile {
+  display: none;
+}
+
+.imgBrand {
+  margin-top: 10px;
+}
+
+.imgBrand img {
+  width: 100%;
+  height: 40px;
+}
+
+.contenedorCard {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(102, 119, 124);
+  margin-top: 20px;
+}
+
+li:hover {
+  color: #00ade6;
+}
+
+a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menuIcon {
+  display: none; /* Inicialmente oculto en pantallas más grandes */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
     display: none;
   }
-  
-  .imgBrand {
-    margin-top: 10px;
+
+  .menuMobile {
+    display: block;
+    background-color: #E4E4E4;
   }
 
-  .imgBrand img {
-    width: 100%;
-    height: 40px;
+  .menuMobile ul {
+    padding: 0;
+    margin: 0;
   }
-  
-  .contenedorCard {
-    width: 500px;
+
+  .menuMobile li {
+    margin-top: 0px;
+    padding: 25px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+  }
+
+  .menuMobile .buttonWMobile {
+    background-color: rgb(101, 252, 101);
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
   }
-  
-  li {
-    list-style-type: none;
-    font-family: Roboto;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: rgb(102, 119, 124);
-    margin-top: 20px;
+
+  .buttonWMobile li {
+    background-color: rgb(101, 252, 101);
+    
   }
-  
-  li:hover {
-    color: #00ade6;
+
+  .menuAnimation {
+    display: block;
+    animation: menuAnimation 0.4s ease;
   }
-  
-  a {
-    text-decoration: none;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+
+  .menuAnimationClose {
+    animation: menuAnimationClose 0.4s ease;
+    max-height: 0px; /* Establecer la misma altura máxima que en la animación de apertura */
+    overflow: hidden; /* Ocultar el contenido que desborda la altura máxima */
   }
-  
-  .menuIcon {
-    display: none; /* Inicialmente oculto en pantallas más grandes */
+
+  @keyframes menuAnimation {
+    from {
+      height: 0px;
+    }
+    to {
+      height: 380px;
+    }
+  }
+
+  @keyframes menuAnimationClose {
+    from {
+      max-height: 380px;
+    }
+    to {
+      max-height: 0px;
+      overflow: hidden;
+    }
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    align-items: center;
+    background-color: #ffffff;
+  }
+
+  .menu .buttonMenu {
+    padding: 20px;
+  }
+
+  .menu .buttonMenu i {
+    font-size: 30px;
+    margin-top: 50%;
     cursor: pointer;
   }
-  
-  @media screen and (max-width: 768px) {
-    .navBar {
-      display: none;
-    }
-  
-    .menuMobile {
-      display: block;
-    }
-  
-    .menuAnimation {
-      animation: menuAnimation 0.7s ease;
-    }
-  
-    @keyframes menuAnimation {
-      from {
-        height: 0px;
-      }
-      to {
-        height: 160px;
-      }
-    }
-  
-    .menu {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      gap: 40%;
-      align-items: center;
-    }
-  
-    .menu .buttonMenu {
-      padding: 20px;
-    }
-  
-    .menu .buttonMenu i {
-      font-size: 30px;
-      margin-top: 50%;
-      cursor: pointer;
-    }
-  }
-  
+}
