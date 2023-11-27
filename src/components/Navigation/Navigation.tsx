@@ -1,6 +1,6 @@
 import style from "./Navigation.module.css";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo-fernando2.png"
+import logo from "../../assets/images/logo-fernando2.png";
 import { useState } from "react";
 
 const Navigation = () => {
@@ -47,25 +47,31 @@ const Navigation = () => {
           </div>
         </div>
 
-        <ul
-          className={menu ? style.menuAnimation : style.menuAnimationClose}
-        >
-          <Link to="/">
+        <ul className={menu ? style.menuAnimation : style.menuAnimationClose}>
+          <a href="/">
             <li className={style.blue}>Inicio</li>
-          </Link>
+          </a>
 
-          <Link to="/seguros">
+          <a href="/seguros">
             <li>Seguros</li>
-          </Link>
-          <Link to="/siniestros">
+          </a>
+
+          <a href="/siniestros">
             <li>Siniestros</li>
-          </Link>
-          <Link to="/contacto">
+          </a>
+
+          <a href="/contacto">
             <li>Contactame</li>
-          </Link>
-          <a href="https://wa.me/2615868074?text=¡Hola%20Fernando!%20Vengo de tu sitio web. ¿Puedo hacerte una consulta?" target="_blank">
+          </a>
+          
+          <a
+            href="https://wa.me/2615868074?text=¡Hola%20Fernando!%20Vengo de tu sitio web. ¿Puedo hacerte una consulta?"
+            target="_blank"
+          >
             <div className={style.buttonWMobile}>
-              <li className={style.whatsappConsulta}>Enviar consulta por Whatsapp</li>
+              <li className={style.whatsappConsulta}>
+                Enviar consulta por Whatsapp
+              </li>
             </div>
           </a>
         </ul>

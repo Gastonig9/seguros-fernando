@@ -24,11 +24,13 @@ import DetailSeguros11 from "./pages/Seguros/components/DetailSeguros/DetailSegu
 import DetailSeguros12 from "./pages/Seguros/components/DetailSeguros/DetailSeguros12";
 import DetailSeguros13 from "./pages/Seguros/components/DetailSeguros/DetailSeguros13";
 import DetailSeguros14 from "./pages/Seguros/components/DetailSeguros/DetailSeguros14";
+import Scroll from "./components/Scroll/Scroll";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <Scroll />
         <ButtonW />
         <Navigation/>
         <Routes>
