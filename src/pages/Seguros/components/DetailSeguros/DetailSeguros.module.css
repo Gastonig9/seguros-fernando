@@ -90,6 +90,9 @@
   justify-content: center;
   align-items: center;
 }
+.detailMotosTexto h3 {
+  font-size: 24px;
+}
 /*------------------------------------- ESTILOS  HOGAR----------------------------- */
 
 .h3HogarTitulo {
@@ -158,7 +161,10 @@
 .responsabilidadTotal {
   width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  gap: 50px;
   padding: 20px 60px;
 }
 
@@ -173,8 +179,8 @@
 }
 
 .responsabilidadImg img {
-  width: 70%;
-  height: 100%;
+  width: 60%;
+  height: 40%;
   object-fit: cover; /* Puedes ajustar esto según tus necesidades: cover, contain, fill, etc. */
 }
 /*------------------------------------- ESTILOS  COBERTURA---------------------------- */
@@ -268,14 +274,15 @@
   width: 45%;
 }
 
-.vidaIndividual .vidaIndividualText h2 {
-  text-align: start;
+.vidaIndividualText h2 {
+  text-align: center;
   color: #00ade6;
   margin-bottom: 20px;
+  font-size: 24px;
 }
 
-.vidaIndividual .vidaIndividualText p {
-  font-size: 25px;
+.vidaIndividualText p {
+  font-size: 16px;
   color: #6c6c6c;
   font-family: Roboto;
   font-style: normal;
@@ -295,6 +302,7 @@
 .caucionContain {
   width: 100%;
   display: flex;
+  flex-direction: column;
   gap: 50px;
 }
 
@@ -406,7 +414,7 @@
 .seguroTecnicoTotal {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: start;
   padding: 20px 60px;
 }
 .seguroTecnicoText {
@@ -430,6 +438,7 @@
 
 .seguroTecnicoImg {
   display: flex;
+  align-items: start;
   flex: 1;
 }
 
@@ -453,6 +462,12 @@
   margin-top: 50px;
   text-align: center;
   color: #00ade6;
+}
+
+
+.viajes img {
+  width: 100%;
+  height: 700px;
 }
 
 .textViajesContain {
@@ -487,6 +502,10 @@
     justify-content: center;
     align-items: start;
   }
+  .detailMotosTexto h3 {
+    font-size: 24px;
+    text-align: center;
+  }
   /*---------------------------- RESPONSIVE HOGAR---------------------------------*/
   .hogarTotal {
     display: flex;
@@ -508,32 +527,40 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: start;
+    width: 100%;
   }
   .comercioTexto {
     display: flex;
-    flex: 1;
+    width: 70%;
     flex-direction: column;
   }
-  .comercioImg {
-    display: flex;
-    flex: 1;
-  }
+
   /*---------------------------- RESPONSIVE RESPONSABILIDAD---------------------------------*/
   .responsabilidadTotal {
+    padding-left: 0px;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+    width: 100%;
     align-items: start;
   }
   .responsabilidadTexto {
     display: flex;
-    flex: 1;
+    width: 100%;
+    margin-top: 50px;
     flex-direction: column;
+    align-items: start;
   }
   .responsabilidadImg {
-    display: flex;
-    flex: 1;
+    width: 100%;
+    padding: 0px;
+    object-fit: cover;
   }
+  .responsabilidadImg img {
+    width: 100%;
+
+    object-fit: cover;
+  }
+
   /*---------------------------- RESPONSIVE COBERTURA---------------------------------*/
   .coberturaTotal {
     display: flex;
@@ -586,6 +613,11 @@
     width: 100%;
   }
   /*------------------------------- RESPONSIVE IDENTIDAD-------------------------------------*/
+  .roboContain {
+    display: flex;
+    flex-direction: column;
+  }
+
   .caucionImg img {
     object-fit: cover;
   }
@@ -599,41 +631,51 @@
   .consorcioTotal {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+
     align-items: start;
   }
   .consorcioText {
     display: flex;
-    flex: 1;
+
     flex-direction: column;
   }
   .consorcioImg {
     display: flex;
-    flex: 1;
   }
   /*------------------------------------- RESPONSIVE SALUD----------------------------- */
+  .saludContain {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    padding: 0px;
+  }
 
   .saludImg {
-    width: 100%;
+    width: 50%;
   }
-  .saludImg img {
+
+  /* .saludImg img {
     object-fit: cover;
-  }
+  } */
   /*------------------------------------- RESPONSIVE SEGURO TECNICO----------------------------- */
   .seguroTecnicoTotal {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    padding: 0;
   }
   .seguroTecnicoText {
     display: flex;
     flex: 1;
     flex-direction: column;
+    padding: 30px;
   }
   .seguroTecnicoImg {
-    display: flex;
-    flex: 1;
+    width: 100%;
+    margin-left: 0px;
+    padding: 30px;
   }
   /*------------------------------------- RESPONSIVE VIAJES----------------------------- */
 
@@ -642,5 +684,8 @@
   }
   .viajes img {
     object-fit: cover;
+  }
+  .textViajesContain {
+    padding: 30px;
   }
 }
