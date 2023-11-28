@@ -94,7 +94,7 @@ const DetailSeguros11 = () => {
           </p>
         </div>
         <div className={style.consorcioImg}>
-          <img src="../../images/seguro-caucion.jpg" alt="" />
+          <img src="../../images/seguro-consorcio.jpg" alt="" />
         </div>
       </div>
       <div className={style.botonesSeguros}>

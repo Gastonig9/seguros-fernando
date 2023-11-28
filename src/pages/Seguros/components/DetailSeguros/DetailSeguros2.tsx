@@ -13,10 +13,10 @@ const DetailSeguros2 = () => {
       <h2 className={style.detailMotosH2}>MOTOS</h2>
       <div className={style.detailMotosTotal}>
         <div className={style.detailMotosTexto}>
-          <p>
+          <h3>
             Vos y tu rodado tendrán a disposición un servicio integral que
             incluye:
-          </p>
+          </h3>
           <ul>
             {coberturasMotos.map((cobertura, index) => (
               <li key={index}>{cobertura}</li>

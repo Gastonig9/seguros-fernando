@@ -24,6 +24,7 @@ const DetailSeguro5 = () => {
   return (
     <div>
       <h2 className={style.responsabilidad}>RESPONSABILIDAD CIVIL</h2>
+
       <div className={style.responsabilidadTotal}>
         <div className={style.responsabilidadTexto}>
           <ul>
