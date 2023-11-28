@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./DetailSeguros.module.css"
 const DetailSeguros13 = () => {
   return (
@@ -74,9 +75,7 @@ const DetailSeguros13 = () => {
         >
           Cotizar seguro en linea
         </a>
-        <a href="/contacto" className={style.seguroEnPagina}>
-          Consultar cotizacion
-        </a>
+        <Link className={style.seguroEnPagina} to="/contacto">Consultar cotizacion</Link>
       </div>
     </div>
   );
