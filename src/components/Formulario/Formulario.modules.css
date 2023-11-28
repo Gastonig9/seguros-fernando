@@ -47,6 +47,7 @@
 }
 
 .formulario-contain form .button-send {
+  width: 20%;
   background-color: #00e60c;
   padding: 5px 30px;
   color: #000000;
@@ -57,6 +58,7 @@
 }
 
 .error-message {
+  width: 20%;
   background-color: #b60f0f;
   padding: 5px 30px;
   color: #fff;
